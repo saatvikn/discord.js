@@ -37,6 +37,7 @@ module.exports = async (client, message) => {
             const newDataEmbed = new MessageEmbed()
             .setTitle("New Server!")
             .setTimestamp()
+	     .setFooter('Developed By Rayne')
             .setDescription('Thank you for inviting me to your server 💌! This server is now registered in my database. You should be able to use my commands now.')
             .setAuthor(message.guild.me.displayName, client.user.displayAvatarURL());
 
