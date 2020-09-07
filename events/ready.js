@@ -4,9 +4,8 @@ module.exports = client => {
         client.user.setPresence({
             status: 'online',
             activity: {
-                name: 'bot template',
-                type: 'STREAMING',
-                url: 'https://twitch.tv/'
+                name: 'Made By Rayne',
+                type: 'PLAYING',
             }
         });
 }
