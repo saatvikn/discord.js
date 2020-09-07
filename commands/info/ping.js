@@ -10,6 +10,7 @@ module.exports = {
         const embed = new MessageEmbed()
         .setColor('RANDOM')
         .setTitle('🏓 Pong!')
+        .setFooter('Developed By Rayne')
         .setDescription(`Bot Latency is **${Math.floor(msg.createdTimestamp - message.createdTimestamp)} ms** \nAPI Latency is **${Math.round(client.ws.ping)} ms**`);
 
         message.channel.send(embed);
