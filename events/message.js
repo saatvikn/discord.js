@@ -3,16 +3,18 @@ const CustomPrefix = require('../models/customprefix');
 const Discord = require('discord.js');
 const { MessageEmbed } = require("discord.js");
 
+// Catching Uncaught Promise Rejection
 process.on('unhandledRejection', error => console.error('Uncaught Promise Rejection', error));
 
 const cooldowns = new Discord.Collection();
 
+// Mention Prefix
 const escapeRegex = str => str.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
 
 module.exports = async (client, message) => {
 
-    if (message.author.bot) return;
-    if (message.channel.type === 'dm') return;
+    if (message.author.bot) return; // ignoring bots
+    if (message.channel.type === 'dm') return; // ignoring DM messages
 
     // custom prefix mongo stuff
 
