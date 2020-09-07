@@ -8,7 +8,7 @@ module.exports = {
     run: async (client, message, args) => {
 
         const embed = new MessageEmbed()
-        .setColor(process.env.COLOR)
+        .setColor('RANDOM')
         .setTitle('🏓 Pong!')
         .setDescription(`Bot Latency is **${Math.floor(msg.createdTimestamp - message.createdTimestamp)} ms** \nAPI Latency is **${Math.round(client.ws.ping)} ms**`);
 
