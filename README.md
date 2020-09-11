@@ -10,6 +10,15 @@
 
 ~ For the documentation of the discord.js library refer to https://discord.js.org/ !
 
+## 📲 Pre-Reuiremes
+**To run a bot on your computer you would require the following things:-**
+
+1) Node.js and Node Pakage Manager (version 12 or higher)
+~ To install this go to the (Node.js Website)[https://nodejs.org/en/]
+2) Discord.js (version 12)
+~ To install discord.js, simply run the `npm install discord.js` in your console of your project folder.
+**For a detaled description of this refer to this [link](https://discordjs.guide/preparations/#installing-node-js-and-discord-js).**
+
 ## ⚙ Setup
 
 ~ Make sure to complete the `.env` file with your appropriate information.
