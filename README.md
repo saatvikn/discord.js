@@ -13,11 +13,11 @@
 ## 📲 Pre-Reuiremes
 **To run a bot on your computer you would require the following things:-**
 
-1) Node.js and Node Pakage Manager (version 12 or higher)
+**1)** Node.js and Node Pakage Manager (version 12 or higher)
 
 ~ To install this go to the [Node.js Website](https://nodejs.org/en/).
 
-2) Discord.js (version 12)
+**2)** Discord.js (version 12)
 
 ~ To install discord.js, simply run the `npm install discord.js` in your console of your project folder.
 
