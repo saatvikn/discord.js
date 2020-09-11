@@ -5,3 +5,7 @@
 Make sure to complete the `.env` file with your appropriate information.
 
 If you are having issues with how to get started or installation, then drop an issue in this [repository](https://github.com/Rayne231/discord.js/issues)!
+
+## Setup
+
+For setting up MongoDB database refer to this [video](https://www.youtube.com/watch?v=solUvRZEh9g) and this (video)[https://youtu.be/HdOOpt2Rbns]
