@@ -10,7 +10,7 @@
 
 ~ For the documentation of the discord.js library refer to https://discord.js.org/ !
 
-## 📲 Pre-Reuiremes
+## 📲 Pre-Requirements
 **To run a bot on your computer you would require the following things:-**
 
 **1)** Node.js and Node Pakage Manager (version 12 or higher)
