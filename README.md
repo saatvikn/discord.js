@@ -4,13 +4,12 @@
 
 ### ⚠ But, this is a licensed repository so make sure to give me credit for my code!
 
-## Setup
+## ⚙ Setup
 
 Make sure to complete the `.env` file with your appropriate information.
 
 For setting up MongoDB database refer to this [video](https://www.youtube.com/watch?v=solUvRZEh9g) and this [video](https://youtu.be/HdOOpt2Rbns).
 
-## Issues
+## ⁉ Issues
 
 If you are having issues with how to get started or installation, then drop an issue in this [repository](https://github.com/Rayne231/discord.js/issues)!
-
