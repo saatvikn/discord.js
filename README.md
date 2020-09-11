@@ -8,7 +8,7 @@
 
 Make sure to complete the `.env` file with your appropriate information.
 
-For setting up MongoDB database refer to this [video](https://www.youtube.com/watch?v=solUvRZEh9g) and this (video)[https://youtu.be/HdOOpt2Rbns]
+For setting up MongoDB database refer to this [video](https://www.youtube.com/watch?v=solUvRZEh9g) and this [video](https://youtu.be/HdOOpt2Rbns)
 
 ## Issues
 
