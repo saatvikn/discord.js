@@ -17,6 +17,7 @@
 ~ To install this go to the [Node.js Website](https://nodejs.org/en/)
 2) Discord.js (version 12)
 ~ To install discord.js, simply run the `npm install discord.js` in your console of your project folder.
+
 **For a detaled description of this refer to this [link](https://discordjs.guide/preparations/#installing-node-js-and-discord-js).**
 
 ## ⚙ Setup
