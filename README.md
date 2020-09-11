@@ -2,7 +2,7 @@
 
 ## You can use this template to get started with creating your disocrd.js bot!
 
-### ⚠ But, this is a licensed repository so make sure to give me credit for my code!
+**⚠ But, this is a licensed repository so make sure to give me credit for my code!**
 
 ## ⚙ Setup
 
