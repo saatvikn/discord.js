@@ -19,3 +19,7 @@
 ## ⁉ Issues
 
 ~ If you are having issues with how to get started or installation, then drop an issue in this [repository](https://github.com/Rayne231/discord.js/issues)!
+
+## 📥 Suggestions 
+
+~ If you have a feature request or want to suggest me something then please go ahead and open an issue in this [repository](https://github.com/Rayne231/discord.js/issues)!
