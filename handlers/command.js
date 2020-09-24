@@ -34,19 +34,3 @@ module.exports = (client) => {
     // Log the table
     console.log(table.toString());
 };
-
-/**
- * This is the basic command layout
- * module.exports = {
- *  name: "Command name",
- *  permissions: ["array", "of", "permissions"],
- *  args: boolean,
- *  aliases: ["array", "of", "aliases"]
- *  category: "Category name",
- *  description: "Command description"
- *  usage: "[args input]",
- *  run: async (client, message, args, prefix) => {
- *      The code in here to execute
- *  }
- * }
- */
