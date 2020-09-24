@@ -8,9 +8,6 @@ process.on('unhandledRejection', error => console.error('Uncaught Promise Reject
 
 const cooldowns = new Discord.Collection();
 
-// Mention Prefix
-const escapeRegex = str => str.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
-
 module.exports = async (client, message) => {
 
     if (message.author.bot) return; // ignoring bots
@@ -49,26 +46,21 @@ module.exports = async (client, message) => {
     
     // message event stuff
 
-    const prefixRegex = new RegExp(`^(<@!?${client.user.id}>|${escapeRegex(prefix)})\\s*`);
-	if (!prefixRegex.test(message.content)) return;
-
-	const [, matchedPrefix] = message.content.match(prefixRegex);
-
-    if (!message.content.startsWith(matchedPrefix)) return;
+    if (!message.content.startsWith(prefix)) return;
     
     if (!message.member) message.member = await message.guild.fetchMember (message);
 
-    const args = message.content.slice(matchedPrefix.length).trim().split(/ +/g);
+    const args = message.content.slice(prefix.length).trim().split(/ +/g);
     const cmd = args.shift().toLowerCase();
     
     let command = client.commands.get(cmd);
 
     if (!command) command = client.commands.get(client.aliases.get(cmd));
 
-    if (!command) return message.reply(`${emojis.no} I don't recognise that, try using \`${prefix}help\` for help.`).then(message.react('747324171477843979'));
+    if (!command) return message.reply(`I don't recognise that, try using \`${prefix}help\` for help.`).then(message.react('747324171477843979'));
 
     if (command.args && !args.length) {
-        let reply = `${emojis.no} You didn't provide any arguments, ${message.author}!`;
+        let reply = `You didn't provide any arguments, ${message.author}!`;
     
     	if (command.usage) {
     		reply += `\nThe proper usage would be: \`${prefix}${command.name} ${command.usage}\``;
