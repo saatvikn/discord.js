@@ -41,7 +41,7 @@
 
 Add a new javascript file in the folders present in the commands folder!
 The basic commands layout is-
-```
+```js
  module.exports = {
  name: "Command name",
  permissions: ["array", "of", "permissions"],
