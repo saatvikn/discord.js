@@ -36,3 +36,22 @@
 ## 📥 Suggestions 
 
 ~ If you have a feature request or want to suggest me something then please go ahead and open an issue in this [repository](https://github.com/Rayne231/discord.js/issues)!
+
+### How to add more commands?
+
+Add a new javascript file in the folders present in the commands folder!
+The basic commands layout is-
+```
+ module.exports = {
+ name: "Command name",
+ permissions: ["array", "of", "permissions"],
+ args: boolean,
+ aliases: ["array", "of", "aliases"]
+ category: "Category name",
+ description: "Command description"
+ usage: "[args input]",
+ run: async (client, message, args, prefix) => {
+      The code in here to execute
+   }
+ }
+ ```
