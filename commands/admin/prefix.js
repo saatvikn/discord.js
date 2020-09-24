@@ -7,10 +7,9 @@ module.exports = {
     permissions: ['ADMINISTRATOR'],
     args: true,
     description: 'Sets the prefix for this server.',
-    usage: `prefix <newPrefix>`,
+    usage: `<newPrefix>`,
     run: async (client, message, args) => {
-        message.delete();
-
+       // calling the database
         const settings = await CustomPrefix.findOne({
             guildID: message.guild.id
         }, (err, guild) => {
