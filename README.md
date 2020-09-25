@@ -1,6 +1,6 @@
 # 🤖 Discord.js Bot Template
 
-## You can use this template to get started with creating your professional disocrd.js bot!
+## You can use this template to get started with creating your professional discord.js bot!
 
 **⚠ But, this is a licensed repository so make sure to give me credit for my code!**
 
