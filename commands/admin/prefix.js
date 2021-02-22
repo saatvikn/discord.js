@@ -1,5 +1,5 @@
 const mongoose = require('mongoose');
-const CustomPrefix = require('../models/customprefix');
+const CustomPrefix = require('../../models/customprefix');
 
 module.exports = {
     name: 'prefix',
